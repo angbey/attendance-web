@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+body {
+  background-image: url(bg.jpg);
+  background-color: rgba(255, 253, 253, 0.518);
+  background-blend-mode: lighten;
+  background-size: 200px 150px;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table, th, td {
+  color: rgb(69, 70, 65);
+  background-color: rgb(243, 244, 242);
+  text-align: center;
+  width: 100%;
+  border: 2px solid rgb(69, 70, 65);
+  border-collapse: collapse;
+}
+
+#main {
+  background-color: rgb(193, 197, 177);
+  border: double rgb(69, 70, 65) 10px;
+  border-radius: 10px;
+  height: 70vh;
+  width: 80vw;
+  padding: 20px ;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-style {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(243, 244, 242);
+  border: 2px solid rgb(69, 70, 65);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+
+.button-style:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}

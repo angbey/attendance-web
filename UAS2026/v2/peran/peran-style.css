@@ -1,0 +1,81 @@
+html, body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+p {
+  margin: -15px;
+}
+body {
+  background-image: url(../bg.jpg);
+  background-color: rgba(255, 253, 253, 0.518);
+  background-blend-mode: lighten;
+  background-size: 200px 150px;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  position: absolute;
+  height: 300px;
+  width: auto;
+  margin-top: 20vh;
+  margin-left: 39vw;
+}
+
+#main {
+  background-color: rgb(193, 197, 177);
+  border: double rgb(69, 70, 65) 10px;
+  border-radius: 10px;
+  height: 40vh;
+  width: 30vw;
+  padding: 20px 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-style {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: bold ;
+  letter-spacing: 5px;
+  background-color: rgb(243, 244, 242);
+  width: 250px;
+  border: 2px solid rgb(69, 70, 65);
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+
+.button-style:hover {
+  color: rgb(116, 141, 125);
+  cursor: pointer;
+}
+
+.input-style {
+  border: 2px solid rgb(69, 70, 65);
+  height: 20px;
+  border-radius: 5px;
+}

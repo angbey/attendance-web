@@ -1,0 +1,109 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+ font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(69, 70, 65);
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../bg.jpg);
+  background-color: rgba(255, 253, 253, 0.518);
+  background-blend-mode: lighten;
+  background-size: 200px 150px;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table, th, td {
+  color: rgb(69, 70, 65);
+  background-color: rgb(243, 244, 242);
+  text-align: center;
+  width: 100%;
+  border: 2px solid rgb(69, 70, 65);
+  border-collapse: collapse;
+}
+
+#main {
+  background-color: rgb(193, 197, 177);
+  border: double rgb(69, 70, 65) 10px;
+  border-radius: 10px;
+  height: 70vh;
+  width: 60vw;
+  padding: 20px ;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#greeting {
+  color: rgb(69, 70, 65);
+  background-color: rgb(243, 244, 242); 
+}
+
+.data {
+  color: rgb(69, 70, 65);
+  background-color: rgb(243, 244, 242); 
+  padding: 0 10px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-style {
+  background-color: rgb(243, 244, 242);
+  border: 2px solid rgb(69, 70, 65);
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100px; 
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button-style2 {
+  background-color: rgb(243, 244, 242);
+  border: 2px solid rgb(69, 70, 65);
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button-style2:hover {
+  color: rgb(177, 186, 181);
+}
+
+.inactive-button-style {
+  color: rgb(243, 244, 242);
+  background-color: rgb(129, 132, 118);
+  border: 2px solid rgb(69, 70, 65);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.inactive-button-style:hover {
+  color: rgb(177, 186, 181);
+}
